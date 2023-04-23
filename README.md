@@ -10,6 +10,47 @@ The goal of this project would be to create a Python script that generates a ran
 
 This project could be a fun way to practice working with external libraries, as well as creating a command line or GUI interface for user input. Additionally, it could be a useful tool for generating secure, randomized passwords on the fly.
 
-# How to run?
+# Edit the Code first
+1. Open the passwordtoemail.py file using VSCode or any other preferred editor.
+2. Then edit these lines <br>
+```python
+# 1st line
+sender_email = 'Enter your email'
+```
+Example ⬇️
+```python
+sender_email = 'example@gmail.com'
+```
+<br><hr>
 
-1.
+```python
+# 2st line
+sender_password = 'Enter your app password'
+```
+Example ⬇️
+```python
+sender_password = 'v7xhwiasyem6lgynx'
+```
+
+<br> <hr>
+
+```python
+# 3rd line
+receiver_email = 'example@gmail.com'
+```
+Example ⬇️
+```python
+receiver_email = 'example@gmail.com'
+```
+
+
+# To run the file, follow these steps:<br>
+<div class="warning" markdown="1">
+  :warning: **Warning:** Before run this project please turn off your antivirus or it wont run!
+</div><br>
+
+1. Open the file
+2. Go inside the dist folder
+3. Double click exe file
+4. Then It will open your terminal
+5. After that it will genorate your password and send it to your email
