@@ -21,7 +21,7 @@ Example ⬇️
 ```python
 sender_email = 'example@gmail.com'
 ```
-<br><hr>
+<hr>
 
 # How to get the App password?
 
@@ -48,7 +48,7 @@ Example ⬇️
 sender_password = 'v7xhwiasyem6lgynx'
 ```
 
-<br> <hr>
+<hr>
 
 ```python
 # 3rd line
@@ -58,7 +58,7 @@ Example ⬇️
 ```python
 receiver_email = 'example@gmail.com'
 ```
-<br>
+<hr>
 
 # Extra steps are required if you would like to customize your password further (this is optional).
 
@@ -76,7 +76,7 @@ password = ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRST
 time.sleep(10)
 ```
 
-<br>
+<hr>
 
 # To run the file, follow these steps:<br>
 <div class="warning" markdown="1">
