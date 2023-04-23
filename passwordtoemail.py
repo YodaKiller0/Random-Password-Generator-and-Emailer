@@ -9,7 +9,7 @@ receiver_email = 'Enter your email again'
 
 while True:
     password = ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#0123456789') for i in range(10))
-    #(16) mean the password length change that to your preference
+    #(16) mean the password length. Change that to your preference
     
     # Print the current password
     print('Current Password:', password)
