@@ -8,7 +8,7 @@ sender_password = 'Enter your app password'
 receiver_email = 'Enter your email again'
 
 while True:
-    password = ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#0123456789') for i in range(10))
+    password = ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#0123456789') for i in range(16))
     #(16) mean the password length. Change that to your preference
     
     # Print the current password
