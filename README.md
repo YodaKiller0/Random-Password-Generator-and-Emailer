@@ -21,7 +21,7 @@ Example ⬇️
 ```python
 sender_email = 'example@gmail.com'
 ```
-<br><hr>
+<hr>
 
 # How to get the App password?
 
@@ -48,7 +48,7 @@ Example ⬇️
 sender_password = 'v7xhwiasyem6lgynx'
 ```
 
-<br> <hr>
+<hr>
 
 ```python
 # 3rd line
@@ -58,7 +58,25 @@ Example ⬇️
 ```python
 receiver_email = 'example@gmail.com'
 ```
+<hr>
 
+# Extra steps are required if you would like to customize your password further (this is optional).
+
+```python
+# Generate a random password with a length of 16 characters
+# To change the password length, simply change the value of 16 to your preferred length.
+password = ''.join(random.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#0123456789') for i in range(16))
+```
+
+<br>
+
+```python
+# Represents the time interval, in seconds, after which a new random password is generated.
+# Change it if you like to
+time.sleep(10)
+```
+
+<hr>
 
 # To run the file, follow these steps:<br>
 <div class="warning" markdown="1">
@@ -70,3 +88,4 @@ receiver_email = 'example@gmail.com'
 3. Double click exe file
 4. Then It will open your terminal
 5. After that it will genorate your password and send it to your email
+6. If you need to end the process press **Ctrl + C**
