@@ -78,14 +78,7 @@ time.sleep(10)
 
 <hr>
 
-# To run the file, follow these steps:<br>
-<div class="warning" markdown="1">
-  :warning: **Warning:** Before run this project please turn off your antivirus or it wont run!
-</div><br>
+# To generate those random passwords and send it your email follow these steps:<br>
 
-1. Open the file
-2. Go inside the dist folder
-3. Double click exe file
-4. Then It will open your terminal
-5. After that it will genorate your password and send it to your email
-6. If you need to end the process press **Ctrl + C**
+1. Open the python code with your favourite text editor or integrated development environment (IDE).
+2.Then run the python code
